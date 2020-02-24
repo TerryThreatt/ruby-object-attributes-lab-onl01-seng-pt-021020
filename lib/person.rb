@@ -1,9 +1,5 @@
 class Person 
-  def initialize(new_job)
-    @job = new_job 
-  end
-  
-  def job=(new_job)
+ def job=(new_job)
     @this_persons_job = new_job
   end 
   
